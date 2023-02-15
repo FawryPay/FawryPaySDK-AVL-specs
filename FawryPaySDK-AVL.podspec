@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK-AVL'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'FawryPaySDK_AVL is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = { 'ahmd-amr' => 'ahmed.amr@fawry.com' }
 
   s.swift_version = '4.0'
-  s.ios.deployment_target  = '12.1'
+  s.ios.deployment_target  = '11.0'
 
   s.source           = { :git => 'https://github.com/FawryPay/FawryPaySDK-AVL.git', :tag => s.version.to_s }
 
