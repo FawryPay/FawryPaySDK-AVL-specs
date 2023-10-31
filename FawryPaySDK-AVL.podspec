@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 			}
   s.author           = { 'ahmd-amr' => 'ahmed.amr@fawry.com' }
 
-  s.swift_version = '5.0'
+  s.swift_version = '4.0'
   s.ios.deployment_target  = '11.0'
 
   s.source           = { :git => 'https://github.com/FawryPay/FawryPaySDK-AVL.git', :tag => s.version.to_s }
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'Alamofire', '~> 5.6.4'
-  s.dependency 'SDWebImage', '~> 5.14.3'
+  s.dependency 'Alamofire'
+  s.dependency 'SDWebImage', '~> 5.15.0'
   s.dependency 'IQKeyboardManagerSwift', '~> 6.5.11'
   s.dependency 'SwiftMessages', '~> 9.0.6'
   # s.dependency 'SVProgressHUD', '~> 2.2.5'
