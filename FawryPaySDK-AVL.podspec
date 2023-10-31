@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK-AVL'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'FawryPaySDK_AVL is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => 'https://github.com/FawryPay/FawryPaySDK-AVL.git', :tag => s.version.to_s }
 
-  s.vendored_frameworks = 'FawryFrameworkAnonymous.xcframework'
+  s.vendored_frameworks = 'FawryPaySDK.xcframework'
   
   s.requires_arc = true
 
