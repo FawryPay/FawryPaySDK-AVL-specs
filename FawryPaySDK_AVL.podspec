@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK_AVL'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'FawryPaySDK_AVL is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 	Hope this will be as expected. Enjoy.
                        DESC
 
-  s.homepage         = 'http://fawry.com'
+  s.homepage         = 'https://www.fawry.com'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
                    	Copyright 2022 Ahmed Amr @ Fawry.
                    	Permission is granted to No body.
