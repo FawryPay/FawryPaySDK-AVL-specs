@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK_AVL'
-  s.version          = '0.4.12.1'
+  s.version          = '0.4.12-hotfix.1'
   s.summary          = 'FawryPaySDK_AVL is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = { 'ahmd-amr' => 'ahmed.amr@fawry.com' }
 
   s.swift_version = '5.0'
-  s.ios.deployment_target  = '12.1'
+  s.ios.deployment_target  = '11.0'
 
   s.source           = { :git => 'https://github.com/FawryPay/FawryPaySDK-AVL.git', :tag => s.version.to_s }
 
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.dependency 'IQKeyboardManagerSwift', '~> 6.5.11'
   s.dependency 'SwiftMessages', '~> 9.0.6'
   s.dependency 'SVProgressHUD', '~> 2.2.5'
-   s.dependency 'RxSwift', '~> 6.9.0'
+  s.dependency 'RxSwift', '~> 6.9.0'
   s.dependency 'MBRadioButton', '~> 1.4'
 
 end
